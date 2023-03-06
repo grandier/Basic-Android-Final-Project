@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".artist.ArtistDetail"
+    android:orientation="vertical"
+    android:background="@color/sage">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detail_artist_name"
+            android:text="@string/artist_name"
+            android:textColor="@android:color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/detail_logo_artist"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/detail_artist_listener"
+                android:text="@string/artist_listener"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp "
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/artist_overview"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/round_rec">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:text="@string/title_detail"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="8dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/artist_content_detail"
+                    android:text="@string/content_overview"
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/round_rec"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:text="@string/artist_detail"
+                android:id="@+id/artist_detail"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/artist_desc_detail"
+
+                android:text="@string/content_detail"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

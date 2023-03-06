@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WikiKpop</string>
+    <string name="profile">Profile</string>
+
+    <string name="profile_name">Kemas Rafly Omar Thoriq</string>
+    <string name="profile_email">rafly.badry20@gmail.com</string>
+
+    <string name="artist_name">Artist Name</string>
+    <string name="artist_listener">Artist Listener</string>
+    <string name="artist_detail">Detail Artist</string>
+    <string name="artist_overview">Deskripsi Artist</string>
+
+    <string name="title_detail">Record Label \nDebut \nGenre \nOrigin \nmember </string>
+    <string name="title_profile_detail">Instagram \nLinkedIn \n \nDicoding \n </string>
+    <string name="profile_detail">@kemasrfly \nhttps://www.linkedin.com/in/kemasrafly/  \nhttps://www.dicoding.com/users/kemas_rafly/academies </string>
+    <string name="content_overview">Content Overview</string>
+    <string name="content_detail">Content Detail</string>
+
+    <string-array name="data_photo">
+        <item>@drawable/bts</item>
+        <item>@drawable/blackpink</item>
+    </string-array>
+</resources>

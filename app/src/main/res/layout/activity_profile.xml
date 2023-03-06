@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/sage">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:textAllCaps="true"/>
+
+        <ImageView
+                android:id="@+id/profilePic"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                tools:src="@tools:sample/avatars" />
+
+        <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_name"
+                android:textAlignment="center"
+                android:textSize="85px" />
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_email"
+            android:textAlignment="center"
+            android:textSize="60px" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/round_rec"
+            android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_profile_detail"
+                    android:textAlignment="center"
+                    android:textSize="50px" />
+
+                <TextView
+                    android:id="@+id/info_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_detail"
+                    android:textAlignment="inherit"
+                    android:textSize="50px"
+                    android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
